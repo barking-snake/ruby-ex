@@ -27,7 +27,7 @@ end
 map '/' do
   welcome = proc do |env|
     [200, { "Content-Type" => "text/html" }, [<<WELCOME_CONTENTS
-    <h1>B O R K.</h1>
+<h1>B O R K.</h1>
 WELCOME_CONTENTS
     ]]
   end
